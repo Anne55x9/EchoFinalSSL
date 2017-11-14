@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87E94918-882E-4AA3-BA2A-6DA46FE05169}</ProjectGuid>
+    <ProjectGuid>{DC8633D9-EE72-4821-825B-036EFC4AC56A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EchoFinalSSL</RootNamespace>
-    <AssemblyName>EchoFinalSSL</AssemblyName>
+    <RootNamespace>ClientFinalSSL</RootNamespace>
+    <AssemblyName>ClientFinalSSL</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

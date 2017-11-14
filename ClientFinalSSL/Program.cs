@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EchoFinalSSL
+namespace ClientFinalSSL
 {
-    public class Program
+    class Program
     {
         private const int PORT = 7777;
         static void Main(string[] args)
         {
-            Server server = new Server(PORT);
-            server.StartServer();
+            Client client = new Client(PORT);
+            client.StratClient();
 
             Console.ReadLine();
         }

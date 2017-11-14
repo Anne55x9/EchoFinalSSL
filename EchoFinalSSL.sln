@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoFinalSSL", "EchoFinalSSL\EchoFinalSSL.csproj", "{87E94918-882E-4AA3-BA2A-6DA46FE05169}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientFinalSSL", "ClientFinalSSL\ClientFinalSSL.csproj", "{DC8633D9-EE72-4821-825B-036EFC4AC56A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{87E94918-882E-4AA3-BA2A-6DA46FE05169}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87E94918-882E-4AA3-BA2A-6DA46FE05169}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87E94918-882E-4AA3-BA2A-6DA46FE05169}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8633D9-EE72-4821-825B-036EFC4AC56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8633D9-EE72-4821-825B-036EFC4AC56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8633D9-EE72-4821-825B-036EFC4AC56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8633D9-EE72-4821-825B-036EFC4AC56A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
